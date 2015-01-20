@@ -13,3 +13,6 @@ python stdlib_grab.py
 
 The database updates automatically so the same module will never appear twice. Enjoy!
 
+-------------------------------------------------------------------------------------
+Big thanks to Doug Hellmann, http://doughellmann.com/, who runs and maintains PYMOTW! 
+
