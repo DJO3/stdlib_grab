@@ -24,8 +24,6 @@ class Sqlite3Pipeline(object):
             log.msg("{0} stored successfully!".format(item['module']), level=log.DEBUG)
         return item
 
-    def handle_error(self, e):
-        log.err(e)
 
 
 
