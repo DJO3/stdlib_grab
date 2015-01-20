@@ -13,5 +13,7 @@ BOT_NAME = 'stdlib_grab'
 SPIDER_MODULES = ['stdlib_grab.spiders']
 NEWSPIDER_MODULE = 'stdlib_grab.spiders'
 
+ITEM_PIPELINES = ['stdlib_grab.pipelines.Sqlite3Pipeline']
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'stdlib_grab (+http://www.yourdomain.com)'
