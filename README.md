@@ -3,7 +3,7 @@ total and Python Module of the Week (http://pymotw.com/2/) does an amazing job d
 scrape the site once and store links to the modules in a small Sqlite3 database. It will then pull a random module from 
 the database and launch it in your default browser. 
 
-There are a few requirements so please install start by creating a virtual environment and loading requirements.txt.
+There are a few requirements so please start by creating a virtual environment and loading requirements.txt.
 
 pip install -r requirements.txt
 
